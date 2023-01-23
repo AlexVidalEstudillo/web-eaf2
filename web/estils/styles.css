@@ -1,0 +1,125 @@
+html,body{margin:0;padding:0}
+body{font: 76% arial,sans-serif;text-align:center}
+header {
+	width:100%; 
+	background:#343a42; 
+	margin:auto; 
+	overflow:hidden; 
+}
+header nav {
+	float:right;
+	line-height:100px;
+    padding-right: 5%;
+	text-decoration:none;
+}
+header nav a {
+	display:inline-block;
+	color:#ffffff;
+	padding:10px 8px;
+	line-height:normal;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+}
+header nav a:hover {
+	background:#19adc7;
+	border-radius:15px;
+	text-decoration:none;
+}
+.logo {
+	float:left;
+    padding-left: 5%;
+	width: 110px;
+    height: 110px;
+}
+footer{
+	width:100%; 
+	background:#343a42; 
+	overflow:hidden; 
+	color:#ffffff;
+}
+p.footer{
+	text-align: left;
+	float: right;	
+	padding-right: 5%;	
+}
+a.footer:link, a.footer:hover, a.footer:visited, a.footer:active {
+	color:#ffffff;
+}
+img.banner{
+	object-fit:fill;
+    width: 100%;
+    height: 650px;
+}
+.separacions{
+	width: 90%;
+	margin-left: 5%;
+	background-color: #343a42;
+	font-size: 30px;
+	color: #FFFFFF;
+	text-align: left;
+}
+div.noticies{
+	width: 30%;
+	height: 400px;
+	float: left;
+	background-color: #888a8d;
+	margin-left: 2.3%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	color: #FFFFFF;
+	font-size: 15px;
+	text-align: justify;
+}
+div.data{
+	width: 100%;
+	height: 20px;
+	background-color: #343a42;
+}
+.noticies p{
+	font-size: 100%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+p.data{
+	font-size: 10px;
+	text-align: right;
+}
+.noticies img
+{
+	width: 95%;
+	height: 60%;
+	padding: 2%;
+}
+.afa img{
+	width: 100%;
+	height: 300px;
+	object-fit:cover;
+}
+.afa h1{
+	font-size: 35px;
+	background-color: #888a8d;
+	margin-top: 0%;
+}
+.afaInfo{
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 20px;
+}
+.afaInfo p{
+	text-align: justify;
+}
+#preu{
+	margin-left: 30%;
+	margin-right: 30%;
+	background-color: #888a8d;
+}
+#preu p{
+	text-align: center;
+}
+.afaPage{
+	background-color: #babdc2;
+}
+fieldset{
+	width: 60%;
+}

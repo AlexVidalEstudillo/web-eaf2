@@ -122,9 +122,6 @@ img.banner{
 #preu p{
 	text-align: center;
 }
-.afaPage{
-	background-color: #babdc2;
-}
 .form-contact {
 	border-radius: 10px;
 	background: #888a8d;
@@ -250,6 +247,22 @@ iframe{
 }
 .calendar2{
 	text-align: left;
-	
+	font-size: 15px;
+	margin: 3%;
 }
-
+.calendar2 ul{
+	display: grid;
+	list-style-type: disc;
+}
+.calendar2 il{
+	padding-top: 1.5%;
+}
+.calendar2 h2{
+	font-size: 110%;
+	color: #343a42;
+}
+.calendar2 span{
+	font-size: 110%;
+	color: #343a42;
+	font-weight: bold;
+}

@@ -231,14 +231,8 @@ iframe{
 	text-align: center;
 	padding: 1% 2%;
 	border: 1px solid black;
+	border-radius: 10px;
 }
-.calendar caption{
-	text-align: left;
-	margin-bottom: 5px;
-	font-size: 20px;
-	letter-spacing: 5px;
-}
-
 .calendar td{
 	text-align: left;
 	font-size: 10px;
@@ -266,3 +260,51 @@ iframe{
 	color: #343a42;
 	font-weight: bold;
 }
+.cursos{
+	margin: 3%;
+}
+.cursos div{
+	background-color: #888a8d;
+	width: 98%;
+	height: 300px;
+	float: left;
+	padding: 1.5%;
+	margin-bottom: 3%;
+	border-radius: 10px;
+	font-size: 12px;
+}
+.cursos h1{
+	float: left;
+	font-size: 25px;
+	text-align: left;
+	margin-left: 2%;
+	background-color: #343a42;
+	width: 53%;
+	color: #FFFFFF;
+}
+#inf{
+	width: 40%;
+	height: 90%;
+	float: right;
+	border-radius: 10px;
+}
+#prim{
+	width: 40%;
+	height: 90%;
+	float: left;
+	border-radius: 10px;
+}
+.cursos p{	
+	padding-top: 5%;
+	font-size: 20px;
+	text-align: justify;
+}
+.inf{
+	width: 53%;
+	padding-left: 2%;
+}
+.prim{
+	padding-left: 42%;
+	padding-right: 5%;
+}
+
